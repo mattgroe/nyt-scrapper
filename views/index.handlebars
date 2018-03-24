@@ -1,0 +1,13 @@
+<div class="col-sm-3 side-bar"></div>
+
+<div class="col-sm-6 timesWrapper">
+     {{#each times}}
+        <div class="time" data-title="{{title}}" data-link="{{{link}}}">
+            <p class="title">{{{title}}}</p> <br>
+             <p class="link">{{{link}}}</p> <br>
+            <button class="timesBtn" id="{{title}}">Save</button>
+        </div>
+    {{/each}}
+</div>
+
+<div class="col-sm-3 side-bar"></div>

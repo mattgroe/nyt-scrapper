@@ -1,0 +1,122 @@
+html{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-fluid{
+    height: 100%;
+    width: 99%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    background-color: aquamarine;
+
+    height: 5%;
+}
+
+.nav-bar div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100%;
+    width: 140px;
+
+    text-align: center;
+}
+
+.nav-bar a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.nav-bar a:link{
+    color: white;
+    font-weight: bold;
+}
+
+.nav-bar a:hover{
+    color: rgb(252, 0, 0);
+    text-decoration: none;
+    
+}
+
+.nav-bar div:first-child:hover{
+    background-color: aquamarine;
+}
+
+.nav-bar div:hover{
+    background-color: rgb(116, 230, 192);
+}
+
+.photo{
+    padding-left: 20px;
+    padding-right: 20px;
+
+    height: 95%;
+    width: 101%;
+
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+
+.timesWrapper{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.time{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 10px;
+
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.time button{
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+.time button:hover{
+    color: white;
+    background-color: rgb(107, 107, 107);
+}
+
+.side-bar{
+    width: 100%;
+}
+
+
+.times{
+
+}
